@@ -14,13 +14,20 @@ class ActionMailchimp
     else
       list_id = "68f98e3456"
     end
-      
-    envoi = gibbon.lists(list_id).members.create(
+
+    begin
+    gibbon.lists(list_id).members.create(
       body: {
         email_address: email,
         status: "subscribed"
       }
     )
+    rescue Gibbon::MailChimpError => e
+    puts "p"*50
+    puts "Houston, we have a problem: #{e.message} - #{e.raw_body}"
+    puts "p"*50
+    end
+    
   end
 
   def send_campaign
