@@ -1,24 +1,21 @@
-# README
+# Landing Page  
+by Herve Lee, Thierry Delongueville, Arthur Vouloir, Lisa Lou et Clément Baldy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Lien Heroku  
+https://thp-landing-mtp.herokuapp.com/
 
-Things you may want to cover:
+## Travaux à mener
 
-* Ruby version
+- Front:
+  - Adapter un temlate et le faire marcher sur rails
+  - 1 landing axée "Chômeurs de Montpellier"
+  - 2 landing axées "Montpellier en général"  et "étudiants"
 
-* System dependencies
+- Back:
+  - Faire marcher Mailchimp
+  - Faire marcher Heroku Scheduler
+  - Faire du Scrapping/Marketing pour générer du traffic
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Front/back:
+  - Rajouter Google Analytics
+  - Faire marcher un autre outil d'analytics
