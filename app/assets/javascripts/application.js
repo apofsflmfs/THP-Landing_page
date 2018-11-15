@@ -15,21 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-//= require jquery-1.11.2.min 
-//= require jquery.easing.1.3 
-//= require bootstrap.min 
-//= require jquery.fitvids 
-//= require jquery.stellar.min 
-//= require isotope.pkgd.min 
-//= require jquery.appear 
-//= require jquery.fs.tipper.min 
-//= require jquery.countTo 
-//= require owl.carousel.min 
-//= require jquery.themepunch.tools.min 
-//= require jquery.themepunch.revolution.min 
-//= require jquery.magnific-popup.min 
-//= require jquery.singlePageNav.min 
-//= require wow.min 
-//= require jquery.validate.min 
-//= require contact-form 
-//= require theme 
+
+
+
+
