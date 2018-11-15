@@ -1,2 +1,10 @@
 <h1>StaticPages#home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
+<br>
+<%=form_tag(subscribe_nl_url, method: :post) do %>
+  <%= hidden_field_tag "targeted_customer", "thp_all"%>
+  <%= text_field_tag :email, nil, placeholder: "Votre email" ,class: "form-control"%>
+  <%= submit_tag "S'abonner", class: 'btn btn-outline-success' %>
+<%end%>
+
+
