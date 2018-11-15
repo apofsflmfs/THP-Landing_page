@@ -41,6 +41,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'watir', '~> 6.15'
 gem 'faker'
+gem 'gmail'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
