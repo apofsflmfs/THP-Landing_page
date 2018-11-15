@@ -13,7 +13,16 @@
  *= require_tree .
  *= require_self
 
-
+ *= require animate
+ *= require bootstrap.css
+ *= require fontAwesome_icon_font
+ *= require jquery.fs.tipper
+ *= require linea_icon_font
+ *= require magnific-popup
+ *= require owl.carousel
+ *= require settings
+ *= require style
+ *= require YTPlayer
 
 
  */
