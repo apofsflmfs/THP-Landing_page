@@ -12,12 +12,8 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require jquery3
-//= require popper
-//= require bootstrap
 //= require turbolinks
 //= require_tree .
-
 
 
 //= require jquery-1.11.2.min 
@@ -38,4 +34,3 @@
 //= require jquery.validate.min 
 //= require contact-form 
 //= require theme 
-
