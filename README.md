@@ -2,9 +2,9 @@
 
 Le projet contient 3 landing pages. Chacune d'entre elles cible des prospects avec des profils différents :
 
-Landing page 1 : landing page générale, facilitant le partage sur réseaux sociaux ne possédant pas d'outils de ciblage (blogs,...)
-Landing page 2 : cible les demandeurs d'emploi en utilisant un argumentaire axé sur le changement de vie et le marché de l'emploi dans le domaine de l'informatique
-Landing page 3 : cible les habitants de Montpellier. Un lieu unique et l'ambiance detravail sont les axes sur lesquels nous avons orienté notre communication.
+* Landing page 1 : landing page générale, facilitant le partage sur réseaux sociaux ne possédant pas d'outils de ciblage (blogs,...)
+* Landing page 2 : cible les demandeurs d'emploi en utilisant un argumentaire axé sur le changement de vie et le marché de l'emploi dans le domaine de l'informatique
+* Landing page 3 : cible les habitants de Montpellier. Un lieu unique et l'ambiance detravail sont les axes sur lesquels nous avons orienté notre communication.
 
 Chacune d'entre elle alimente, via un formulaire d'inscription, un compte MailChimp avec 3 type de campagnes : générale, demandeur d'emploi, montpellier.
 
