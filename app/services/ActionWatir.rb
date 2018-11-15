@@ -1,7 +1,4 @@
-require 'watir'
-
-
-class watir
+class ActionWatir
 
 	def create_trafic
 

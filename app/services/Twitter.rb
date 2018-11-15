@@ -8,5 +8,6 @@ class Twitter
       config.access_token        = ENV["access_token"]
       config.access_token_secret = ENV["token_secret"]
     end
+  end
 
 end
