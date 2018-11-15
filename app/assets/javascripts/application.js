@@ -34,3 +34,4 @@
 //= require jquery.validate.min 
 //= require contact-form 
 //= require theme 
+//= require jquery.downCount
