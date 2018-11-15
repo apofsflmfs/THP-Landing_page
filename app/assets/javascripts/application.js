@@ -16,9 +16,6 @@
 //= require_tree .
 
 
-
-
-
 //= require jquery-1.11.2.min 
 //= require jquery.easing.1.3 
 //= require bootstrap.min 
@@ -37,3 +34,4 @@
 //= require jquery.validate.min 
 //= require contact-form 
 //= require theme 
+//= require jquery.downCount
