@@ -5,14 +5,14 @@ class ActionMailchimp
     gibbon = Gibbon::Request.new
     
     case targeted_customer
-    when 'thp_all'
-      list_id = '68f98e3456'
-    when 'thp_montpellier'
-      list_id = 'e0caaf07ba'
+    when "thp_all"
+      list_id = "68f98e3456"
+    when "thp_montpellier"
+      list_id = "e0caaf07ba"
     when 'thp_chomeurs'
-      list_id = 'f85268efe0'
+      list_id = "f85268efe0"
     else
-      list_id = 'e0caaf07ba'
+      list_id = "68f98e3456"
     end
       
     envoi = gibbon.lists(list_id).members.create(
@@ -71,7 +71,6 @@ class ActionMailchimp
     #send
     gibbon = Gibbon::Request.new
     gibbon.campaigns(campaign_id).actions.send.create
-    flash[:danger] = "Campagne envoyée!!"
     redirect_to "/"
   end
 
