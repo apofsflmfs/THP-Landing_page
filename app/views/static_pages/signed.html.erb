@@ -53,12 +53,11 @@
                     <!--End Navigation Icon-->
 
                     <!-- Navigation Menu -->
-                    <div class="nav-menu singlepage-nav">
-                        <ul class="nav-menu-inner">
+                    <div class="nav-menu">
+                        <ul class="nav-menu-inner nav-external">
                             <li><%= link_to "Home",root_path %></li>
-                            <li><a href="/">Montpellier</a></li>
-                            <li><a href="#intro">Demandeur d'emploi</a></li>
-                            <li><a href="#contact-us">Newsletter</a></li>
+                            <li><%= link_to "Montpellier", montpellier_path %></li>
+                            <li><%= link_to "Demandeur d'emploi", jobseeker_path %></li>
                         </ul>
                     </div>
                     <!-- End Navigation Menu -->
