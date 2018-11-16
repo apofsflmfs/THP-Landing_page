@@ -34,3 +34,14 @@
 //= require contact-form 
 //= require theme 
 //= require jquery.downCount
+
+
+//= jquery-ui.min
+//= jquery.easing
+//= jquery.flexslider
+//= jquery.viewportchecker
+//= jquery.colorbox-min
+//= masonry.pkgd.min
+//= imagesloaded.pkgd.min
+//= mediaelement-and-player.min
+
